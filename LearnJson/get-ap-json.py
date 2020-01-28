@@ -2,7 +2,7 @@
 Python script to query Connected Mobile Experiences (CMX) Mobility Services as a data for the names of available access
 points and display them as a simple list.
 """
-
+ 
 ### IMPORTS ###
 from urllib.request import Request, urlopen
 import json

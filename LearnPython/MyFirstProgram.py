@@ -3,7 +3,7 @@ This program computes the interest accrued over the specified number of
 years on the principal amount with one year as a fixed value for the compound
 interval.
 """
-
+ 
 # Print title of program
 print('Interest Calculator:')
 
