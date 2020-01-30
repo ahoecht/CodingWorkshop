@@ -4,7 +4,7 @@
 """
 TO DO: Import the pre-built "random" module
 """
-
+import random
 ################################################################################
 ### GAME CLASS ###
 ################################################################################
@@ -86,7 +86,7 @@ class HangMan(object):
             (HINT: Index positions start at zero! You should generate a
                 random position between 0 and the length of the wordbank -1)
         """
-        return self.words
+        return self.words[]
 
 
     """ Print our game board and player properly """
