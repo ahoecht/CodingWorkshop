@@ -17,16 +17,18 @@ This project implements a Botkit + Webex Teams adapter bot, based on the [genera
 Assuming you plan to expose your bot via [ngrok](https://ngrok.com), you can run this template in a jiffy:
 
 1. Install the Node.js dependencies in terminal:
-
+    <pre><code>
     npm install
+    </code></pre>
 
-2. Create a Webex Teams bot account at ['Webex for Developers'](https://developer.webex.com/my-apps/new/bot), and note/save your bot's access token
+2. Create a Webex Teams bot account at: [Webex for Developers](https://developer.webex.com/my-apps/new/bot)
+    >Note/Save your bot's access token!)
 
-3. Launch ngrok to expose port 3000 of your local machine to the internet:
-
+3. Launch ngrok from the terminal to expose port 3000 of your local machine to the internet:
+    <pre><code>
     ngrok http 3000
-
-    >Note/Save the 'Forwarding' HTTPS (not HTTP) address that ngrok generates
+    </code></pre>
+    >Note/Save the 'Forwarding' HTTPS (not HTTP) address that ngrok generates!
 
 4. Edit the `.env` file and configure the settings and info for your bot.
 
