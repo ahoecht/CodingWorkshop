@@ -14,7 +14,7 @@
     "botkit": "^4.6.1",
     "botkit-plugin-cms": "^1.0.3",
     "dotenv": "^8.2.0",
-    "redis": "^2.8.0",
+    "redis": "^3.1.1",
     "uuid": "^3.3.3"
   }
 }
